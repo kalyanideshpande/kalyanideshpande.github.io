@@ -1,6 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+/*This pulls the font from a specific url and should always be at the top of the page.*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body	{
-	text-align:	center;
-	font-family: "Avenir Next";
+	font-family: "Georgia", sans-serif;
 }
 
 #title	{
@@ -9,4 +17,22 @@ body	{
 
 #subtitle {
 	font-style: italic;
+}
+
+
+h1	{
+	font-family: 'Playfair Display', serif;
+}
+
+p 	{
+	text-align: center;
+	max-width: 30em;
+}
+
+.kalyani {
+	text-align: left;
+}
+
+.footer	{
+	text-align: center;
 }

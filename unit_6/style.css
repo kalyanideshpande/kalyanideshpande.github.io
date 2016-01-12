@@ -69,7 +69,7 @@ a:active{
 */
 section {
 	padding-bottom: 2em;
-	margin-left: 1em;
+	text-align: center;
 }
 
 article {
@@ -137,6 +137,7 @@ h3 {
 .welcometext 	{
 	line-height: 1.5em;
 	max-width: 90em;
+	text-align: left;
 }
 
 .kalyani {

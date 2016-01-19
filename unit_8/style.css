@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+/*This pulls the font from a specific url and should always be at the top of the page.*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body	{
+	font-family: "Georgia", sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+#blogname	{
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 2.5em;
+	color: #000;
+}
+
+nav {
+	letter-spacing: 1px;
+	float: left;
+	padding: 1em; 
+	margin-top: 1em;
+}
+
+.navlinks {
+	float: right;
+	width: 35%;
+}
+
+nav a {
+	text-decoration: none;
+  	color: #000000;
+  	font-family: "Avenir Next";
+  	text-transform: uppercase;
+  	padding: 1em;
+	font-size: 1em;
+}
+
+/* LoVe HAte*/
+
+/*a:link{
+	color:#A496B2;
+}*/
+
+/*Visited may not be as relevant to my site as I don't have an information
+heavy site. For a site like Google, it makes sense to have the visited link 
+appears purple.
+
+a:visited{
+	color: inherit;
+}
+*/
+
+nav a:hover{
+	color:#A496B2;
+}
+
+/* Active is as the link is being clicked. Active is relevant for tablet and mobile sites (for touch devices). 
+In regular sites, the active link flashes and isn't really helpful.
+
+a:active{
+
+}
+
+*/
+section {
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+article {
+	max-width: 70em;
+	background-color: blue;
+}
+
+h2 {
+	font-family: 'Homemade Apple', 'Georgia', serif;
+	font-size: 1.75em;
+	line-height: 50px;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	font-style: italic;
+	text-align: center; 
+}
+
+h2 a {
+		text-decoration: none;
+}
+
+h3 {
+	font-family: "Avenir Next";
+	text-align: center; 
+	display: inline-block;
+	margin: 1em;
+}
+
+h3 a {
+		text-decoration: none;
+}
+
+
+.top {
+	padding-top: 0.5em;
+	padding-bottom: 2em;
+}
+
+#hero {
+	background: url("images/sunset.jpg") no-repeat 50% 40% scroll;
+	background-size: cover;
+	height: 500px;
+}
+
+.wrapper {
+	margin: 0, auto;
+	padding-top: 2em;
+	padding-left: 20em;
+	padding-right: 20em;
+}
+
+/*.logowrapper {
+	width: 50%;
+	background-color: yellow;
+}*/
+
+.navwrapper {
+	width: 35%;
+}
+
+.social {
+	display: inline-block;
+	float: right;
+	margin-top: 1.5em;
+	width: 15%;
+}
+.welcome {
+	font-family: 'Homemade Apple', 'Georgia', serif;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: left;
+	line-height: 50px;
+}
+
+.signature {
+	font-family: 'Homemade Apple', 'Georgia', serif;
+	font-size: 1.25em;
+	font-style: italic;
+	text-align: right;
+	line-height: 50px;
+	padding-top: 1em;
+	padding-right: 6em;
+}
+
+.welcometext 	{
+	line-height: 1.5em;
+	max-width: 90%;
+	text-align: left;
+}
+
+.kalyani {
+	width: 15%;
+	float: left;
+	padding-right: 2%;
+}
+
+.kalyaniaside {
+	width: 50%;
+	float: left;
+	padding-right: 2%;
+}
+
+.clearfix:after{
+    height:0;
+    font-size:0;
+    visibility:hidden;
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.pagetitle {
+	font-family: "Avenir Next";
+	text-transform: uppercase;
+	font-size: 1em;
+	text-align: center;
+}
+
+.aboutkalyani{
+	height: 400px;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.galleryimages{
+	width: 35%;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	vertical-align: center;
+	text-align: center; 
+}
+
+.asidetext {
+	text-align: left;
+	float: right; 
+	padding-top: 1em;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+
+#twocolumn {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto; /*center the div on the page*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#left {
+    /*background-color: blue;*/
+    /*border: 1px black solid;*/
+    float: left;
+    width: 50%;
+}
+
+#right {
+    /*background-color: pink;*/
+    /*border: 1px black solid;*/
+    float: right;   
+    width: 50%;
+}
+.columnitem {
+	width:90%;
+	padding:5%;
+}
+
+.columnitem img {
+	width:100%;
+}
+
+.figureimage {
+	width: 100%;
+	height: 0;
+	padding-bottom: 125%;
+	overflow: hidden; 
+	display: block;
+}
+
+.subnav {
+	background-color: yellow;
+}
+
+.bodytext {
+	margin: 4em;
+	padding-top: 0.5em;
+	/*padding-left: 5em;
+	padding-right: 5em;
+	border: 1px black solid;
+	background-color: yellow;*/
+}	
+
+@media screen and (max-width:1000px){
+	#blogname {
+		font-size: 2.5em;
+	}
+	.navwrapper {
+		float: none;
+		width: 100%;
+	}
+
+	.navlinks {
+		float: none;
+		width: 35%;
+		padding-top: 4em;
+		margin-left: 0.5em;
+	}
+
+	.social {
+		float: none;
+		width: 100%;
+		margin-left: 2.15em;
+		margin-top: 0;
+	}
+	.kalyani {
+	width: 25%;
+}
+}
+
+/* for tablet*/
+@media screen and (min-width:768px) and (max-width: 1000px;){
+	.navlinks {
+		display: block;
+	}
+	.welcomewrapper {
+		width: 500px;
+	}
+	.welcometext 	{
+	line-height: 1.5em;
+	max-width: 100%;
+	text-align: left;
+	}
+}
+/* for mobile*/
+@media screen and (max-width:480px){
+	}
+/* for Unit 6 assignment*/
+footer	{
+    padding: 20px;
+	text-align: center;
+	font-family: "Avenir Next";
+	font-size: 14px;
+}

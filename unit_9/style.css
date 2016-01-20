@@ -30,16 +30,9 @@ nav {
 	margin: 1em 1em 0 0;
 }
 
-
-/*.logowrapper {
-	width: 50%;
-	background-color: yellow;
-}*/
-
-.social {
-	display: inline-block;
-	float: right;
-	margin-top: 1.5em;
+.navwrapper {
+	float: left;
+	margin-left: 8em;
 }
 
 nav a {
@@ -52,6 +45,10 @@ nav a {
 	display:inline-block;
 }
 
+.social {
+	float: right;
+	margin-top: 1.5em;
+}
 /* LoVe HAte*/
 
 /*a:link{
@@ -150,7 +147,7 @@ h3 a {
 }
 
 .kalyani {
-	width: 33.33%;
+	width: 20%;
 	float: left;
 	padding-right: 2em;
 }
@@ -247,16 +244,34 @@ h3 a {
 	background-color: yellow;*/
 }	
 
+footer	{
+    padding: 2em;
+	text-align: center;
+	font-family: "Avenir Next";
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1072px){
+	.navwrapper {
+		float: none;
+		display: block;
+	}
+	.social {
+		float: none;
+		display: block;
+	}
+}
+
+/*
 @media screen and (min-width: 768px) and (max-width: 1000px){
 	#blogname {
 		margin-top: 0.02em;
 		font-size: 2.5em;
 	}
-	.navwrapper {
-		float: none;
-		width: 100%;
-	}
 
+	.navwrapper {
+	float: left;
+	}
 	.navlinks {
 		float: none;
 		width: 45%;
@@ -292,10 +307,6 @@ h3 a {
 	#blogname {
 		font-size: 2.5em;
 	}
-	.navwrapper {
-		float: none;
-		width: 100%;
-	}
 
 	.navlinks {
 		float: none;
@@ -326,8 +337,8 @@ h3 a {
 	}
 		
 }
-
-/* for mobile*/
+*/
+/* for mobile
 @media screen and (max-width:480px){
 	#blogname {
 		font-size: 2em;
@@ -359,10 +370,5 @@ h3 a {
 	.welcomewrapper {
 		width: 400px;
 }
-/* for Unit 6 assignment*/
-footer	{
-    padding: 20px;
-	text-align: center;
-	font-family: "Avenir Next";
-	font-size: 14px;
-}
+*/
+

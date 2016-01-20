@@ -8,27 +8,26 @@
 }
 
 body	{
+	color:#222;
 	font-family: "Georgia", sans-serif;
 }
-
 header {
-    padding: 20px;
+    padding: 1em 0;
+    margin:auto;
+    max-width:75em;
 }
 
 #blogname	{
 	float: left;
-	margin-top: 0.5em;
-	margin-left: 1em;
 	font-family: 'Homemade Apple', cursive;
 	font-size: 2.5em;
-	color: #000;
+	color:#222;
 }
 
 nav {
 	letter-spacing: 1px;
-	float: left;
-	padding: 1em; 
-	margin-top: 1em;
+	float: right;
+	margin: 1em 1em 0 0;
 }
 
 
@@ -37,31 +36,20 @@ nav {
 	background-color: yellow;
 }*/
 
-.navwrapper {
-	width: 35%;
-
-}
-
 .social {
 	display: inline-block;
 	float: right;
 	margin-top: 1.5em;
-	width: 15%;
-}
-
-.navlinks {
-	float: right;
-	width: 35%;
-	display: inline-block;
 }
 
 nav a {
 	text-decoration: none;
-  	color: #000000;
+  	color: #222;
   	font-family: "Avenir Next";
   	text-transform: uppercase;
   	padding: 1em;
 	font-size: 1em;
+	display:inline-block;
 }
 
 /* LoVe HAte*/
@@ -92,12 +80,12 @@ a:active{
 
 */
 section {
-	padding-bottom: 2em;
+	padding: 2em 0;
 	text-align: center;
 }
 
 article {
-	max-width: 70em;
+	max-width: 75em;
 	background-color: blue;
 }
 
@@ -126,11 +114,6 @@ h3 a {
 		text-decoration: none;
 }
 
-.top {
-	padding-top: 0.5em;
-	padding-bottom: 2em;
-}
-
 #hero {
 	background: url("images/sunset.jpg") no-repeat 50% 40% scroll;
 	background-size: cover; /*completely cover the background positioning area while retaining its aspect ratio.*/
@@ -138,27 +121,20 @@ h3 a {
 }
 
 .wrapper {
-	margin: 0, auto;
-	padding-top: 2em;
-	padding-left: 20em;
-	padding-right: 20em;
-	background-color: blue;
+	margin: auto;
+	max-width:55em;
 }
-
-.welcomewrapper {
-		width: 100%;
-		background-color: yellow;
-		display: block;
-}
-
 .welcome {
+	float:left;
+	width:66.66%;
+}
+.welcome h2{
 	font-family: 'Homemade Apple', 'Georgia', serif;
 	font-size: 1.5em;
 	font-style: italic;
 	text-align: left;
 	line-height: 50px;
 }
-
 .signature {
 	font-family: 'Homemade Apple', 'Georgia', serif;
 	font-size: 1.25em;
@@ -166,9 +142,7 @@ h3 a {
 	text-align: right;
 	line-height: 50px;
 	padding-top: 1em;
-	padding-right: 6em;
 }
-
 .welcometext 	{
 	line-height: 1.5em;
 	width: 100%;
@@ -176,15 +150,9 @@ h3 a {
 }
 
 .kalyani {
-	width: 15%;
+	width: 33.33%;
 	float: left;
-	padding-right: 2%;
-}
-
-.kalyaniaside {
-	width: 50%;
-	float: left;
-	padding-right: 2%;
+	padding-right: 2em;
 }
 
 .clearfix:after{

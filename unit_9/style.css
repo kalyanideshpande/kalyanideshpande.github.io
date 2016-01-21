@@ -26,13 +26,15 @@ header {
 
 nav {
 	letter-spacing: 1px;
-	float: right;
-	margin: 1em 1em 0 0;
+	float: left;
+	margin-top: 1em;
+	margin-right: 4em;
+	/*float: right;*/
+	/*margin: 1em 1em 0 0;*/
 }
 
-.navwrapper {
-	float: left;
-	margin-left: 8em;
+.navigation {
+	float: right;
 }
 
 nav a {
@@ -42,12 +44,12 @@ nav a {
   	text-transform: uppercase;
   	padding: 1em;
 	font-size: 1em;
-	display:inline-block;
+	
 }
 
 .social {
 	float: right;
-	margin-top: 1.5em;
+	/*margin-top: 1.5em;*/
 }
 /* LoVe HAte*/
 
@@ -251,14 +253,34 @@ footer	{
 	font-size: 14px;
 }
 
-@media screen and (max-width: 1072px){
-	.navwrapper {
-		float: none;
+@media screen and (max-width: 1225px){
+	#blogname {
+		margin-left: 0.5em;
+	}
+}
+
+@media screen and (max-width: 994px){
+	.navigation {
+		float: left;
+		display: block;
+		margin-top: 1.5em;
+	}
+	.nav {
+		float: left;
 		display: block;
 	}
 	.social {
-		float: none;
+		float: left;
 		display: block;
+	}
+}
+
+@media screen and (max-width: 557px){
+	.social {
+		float: left;
+		display: block;
+		margin-top: 1.5em;
+		margin-left: 1em;
 	}
 }
 
